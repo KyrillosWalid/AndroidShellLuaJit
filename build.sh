@@ -1,0 +1,1 @@
+make HOST_CC="gcc -m32" CROSS=$NDK/bin/arm-linux-androideabi- CFLAGS="-fPIE -fPIC" LDFLAGS="-pie"
